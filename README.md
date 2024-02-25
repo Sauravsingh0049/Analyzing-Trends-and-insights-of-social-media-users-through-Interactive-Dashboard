@@ -13,13 +13,14 @@ A historical dataset with 1001 rows and 14 columns containing data of social med
 ## Steps of Creating an Interactive Dashboard on Microsoft PowerBI
 
 1. Data Cleaning - I have created a different column by the name of age group in which users having ages more than 0 but less than 18 are in the group "0-18", users having ages more than 18 but less than 35 are in the group "18-35", more than 35 but less than 60 in the group "35-60" and the user having age more than 60 are in the group "60+" by using excel function "=IF(B2<=18, "0-18", IF(B2<=35, "18-35", IF(B2<=60, "35-60", "60+")))"
-   
+
 ![image](https://github.com/Sauravsingh0049/Analyzing-Trends-and-insights-of-social-media-users/assets/155745836/ae6f0140-c61c-4636-8605-6c518d4b9f4b)
 
 2. Replacing Sub_Urban to Sub Urban for more clarity by using the "Find and Replace" function.
-   ![image](https://github.com/Sauravsingh0049/Analyzing-Trends-and-insights-of-social-media-users/assets/155745836/b8f04898-9b3d-4cda-9ef2-e628dce2a3d7)
 
-   ![image](https://github.com/Sauravsingh0049/Analyzing-Trends-and-insights-of-social-media-users/assets/155745836/f186d226-ee9c-4663-9420-1b7a556d8830)
+![image](https://github.com/Sauravsingh0049/Analyzing-Trends-and-insights-of-social-media-users/assets/155745836/b8f04898-9b3d-4cda-9ef2-e628dce2a3d7)
+
+![image](https://github.com/Sauravsingh0049/Analyzing-Trends-and-insights-of-social-media-users/assets/155745836/f186d226-ee9c-4663-9420-1b7a556d8830)
 
 Now The data is cleaned and we can import data on the MicroSoft PowerBI.
 - For importing Data from the Excel to the Microsoft PowerBI,
