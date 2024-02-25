@@ -1,4 +1,4 @@
-# Analyzing-Trends-and-insights-of-social-media-users through Interactive Dashboard
+# Analyzing Trends and insights of social media users through Interactive Dashboard on Microsoft PowerBi
 
 
 ## Objectives
