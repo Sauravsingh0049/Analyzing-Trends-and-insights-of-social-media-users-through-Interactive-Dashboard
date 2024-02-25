@@ -14,7 +14,7 @@ A historical dataset with 1001 rows and 14 columns containing data of social med
 
 1. Data Cleaning - I have created a different column by the name of age group in which users having ages more than 0 but less than 18 are in the group "0-18", users having ages more than 18 but less than 35 are in the group "18-35", more than 35 but less than 60 in the group "35-60" and the user having age more than 60 are in the group "60+" by using excel function "=IF(B2<=18, "0-18", IF(B2<=35, "18-35", IF(B2<=60, "35-60", "60+")))"
 
-![image](https://github.com/Sauravsingh0049/Analyzing-Trends-and-insights-of-social-media-users/assets/155745836/ae6f0140-c61c-4636-8605-6c518d4b9f4b)
+![image](https://github.com/Sauravsingh0049/SocialSphere-Insights-PowerBI-Dashboard-Project/assets/155745836/60dfc95a-419a-4cf7-930c-8c122df7a62e)
 
 2. Replacing Sub_Urban to Sub Urban for more clarity by using the "Find and Replace" function.
 
